@@ -42,3 +42,7 @@ hugo
 cd public
 git commit "blogpost update"
 ```
+
+Hugo verion tested: v0.49.2 
+
+Theme version used: https://github.com/arjunkrishnababu96/basics - 93d2a49
