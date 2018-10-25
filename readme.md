@@ -1,3 +1,5 @@
+[![Build status](https://travis-ci.com/icasimpan/quicktasks-drupal.svg)](https://travis-ci.com/icasimpan/quicktasks-drupal)
+
 *What is this*
 
 Is my personal notes on Drupal, written using with the help of hugo.
