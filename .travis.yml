@@ -1,0 +1,32 @@
+language: python
+
+env:
+  global:
+  - USER="icasimpan"
+  - EMAIL="deploy@travis-ci.com"
+  - DEPLOYMENT_USER="traviscibot"
+  - REPO="quicktasks-drupal"
+  - BUILD_DIR="public"
+  - GH_REPO="github.com/${USER}/${REPO}.git"
+
+## Force commit to 'gh-pages' the built hugo site
+after_success:
+  - MESSAGE='Commit with Travis CI'
+  - ls -l
+  - mv public ~/ || exit 1
+  - cd ~/public
+  - git init
+  - git add .
+  - git config user.email ${EMAIL}
+  - git config user.name ${DEPLOYMENT_USER}
+  - git commit -m "${MESSAGE}"
+  - git checkout -b gh-pages
+  - git push "https://${GITHUB_TOKEN}@${GH_REPO}" gh-pages -f
+
+install:
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
+
+script:
+    - hugo -s ./
