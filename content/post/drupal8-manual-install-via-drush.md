@@ -4,7 +4,10 @@ date: 2018-04-09T00:09:39+08:00
 draft: false
 ---
 
-NOTE: Per https://www.drupal.org/project/drupal/releases/8.4.0, drupal8.4.x needs drush 8.1.12+
+NOTE:
+
+* Per https://www.drupal.org/project/drupal/releases/8.4.0, drupal8.4.x needs drush 8.1.12+
+* Method works but has theme issue. Better to use composer method instead.
 
 1. cd /var/www/sites/yourdrupal.com/
 2. drush dl drupal-8

@@ -1,0 +1,16 @@
+---
+title: "Drupal8 Install via Composer"
+date: 2018-04-09T00:09:39+08:00
+draft: false
+---
+
+NOTE: 
+
+* Noticed some memory issue during installation on a VM with 2GB RAM, so if it happens to you, just augment with swap file.
+
+```
+cd /var/www/sites
+composer create-project drupal-composer/drupal-project:8.x yoursite.example.com --stability dev --no-interaction
+../vendor/bin/drush site-install --db-url=mysql://yourDBA:yourPASS@localhost/yourDB
+
+```
