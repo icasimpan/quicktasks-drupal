@@ -1,5 +1,5 @@
 ---
-title: "Few Ways to Add Changes to settings.php"
+title: "settings.php: Few Ways to Add Changes"
 date: 2018-04-09T00:20:33+08:00
 draft: false
 ---
@@ -38,27 +38,6 @@ in /etc/drupal/site_identifier_here/default, there is then a file _globals.conf.
 
 *Method 2: Referenced from settings.php*
 
-In drupalroot/sites/default/settings.php, there is this code snippet:
+See https://ismael.casimpan.com/quicktasks-drupal/post/settings-php-including-settings-local/
 
-```
- if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-   include $app_root . '/' . $site_path . '/settings.local.php';
- }
-```
-
-Then, said referred file's content as follows:
-```
-<?php
-$databases['default']['default'] = array (
-  'database' => 'yourDB',
-  'username' => 'yourDBA',
-  'password' => 'yourPASS',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-?>
-```
-
+With sample settings.local.php in https://ismael.casimpan.com/quicktasks-drupal/post/settings-php-sample-settings-local/
