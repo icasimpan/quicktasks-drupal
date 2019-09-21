@@ -19,3 +19,5 @@ $config['system.performance']['js']['preprocess'] = FALSE;
 Uncheck two checkboxes:
 * Aggregate CSS files
 * Aggregate JavaScript files
+
+Reference: https://www.drupal.org/forum/support/post-installation/2017-04-02/disabling-caching-cssjs-aggregation
