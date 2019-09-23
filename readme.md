@@ -46,7 +46,8 @@ git commit "blogpost update"
 ```
 
 Hugo version tested: v0.49.2
-Theme version used: https://github.com/icasimpan-oss/basics (HEAD: 2afe098) as it has fixes not applied yet
+Theme version used: https://github.com/icasimpan-oss/basics (HEAD: f5338db) as it has fixes not applied yet
                     to upstream https://github.com/arjunkrishnababu96/basics (HEAD: 93d2a49) that I need, as follow:
                     * #8 - css breaks when baseURL is not /
+                    *    - updated title so it points to correct baseURL
 
