@@ -45,6 +45,8 @@ cd public
 git commit "blogpost update"
 ```
 
-Hugo verion tested: v0.49.2 
+Hugo version tested: v0.49.2
+Theme version used: https://github.com/icasimpan-oss/basics (HEAD: 2afe098) as it has fixes not applied yet
+                    to upstream https://github.com/arjunkrishnababu96/basics (HEAD: 93d2a49) that I need, as follow:
+                    * #8 - css breaks when baseURL is not /
 
-Theme version used: https://github.com/arjunkrishnababu96/basics - 93d2a49
