@@ -14,3 +14,5 @@ drush sset system.maintenance_mode FALSE
 drush vset maintenance_mode 0
 ```
 You may need to clear cache for it to work.
+
+See details and some other options if it doesn't work in https://drupal.stackexchange.com/questions/100771/how-do-i-turn-off-maintenance-mode
