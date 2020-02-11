@@ -16,5 +16,6 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-?>
 ```
+
+EDIT: Updated to reflect new learning in https://ismael.casimpan.com/quicktasks-drupal/post/weird-session-issue/
