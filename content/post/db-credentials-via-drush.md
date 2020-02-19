@@ -8,3 +8,8 @@ Go to drupal root, then:
 ```
 drush st --show-passwords database
 ```
+
+In drush 9.7.2 (may also work for other sub-versions of drush 9), the following command should be used:
+```
+drush st DB
+```
