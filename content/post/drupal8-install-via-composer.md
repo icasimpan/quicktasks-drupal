@@ -11,6 +11,5 @@ NOTE:
 ```
 cd /var/www/sites
 composer create-project drupal-composer/drupal-project:8.x yoursite.example.com --stability dev --no-interaction
-../vendor/bin/drush site-install --db-url=mysql://yourDBA:yourPASS@localhost/yourDB
-
+../vendor/bin/drush site-install --site-name="Drupal Title Here" --db-url=mysql://yourDBA:yourPASS@localhost/yourDB --account-mail=admin@example.com --account-pass=acountPassw0RD -y
 ```
