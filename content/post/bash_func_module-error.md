@@ -1,6 +1,7 @@
 ---
 title: "BASH_FUNC_module error"
 date: 2018-04-09T00:20:25+08:00
+tags: [drupal, bash, error, php, configuration]
 draft: false
 ---
 

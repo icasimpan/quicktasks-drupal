@@ -1,6 +1,7 @@
 ---
 title: "settings.php: Sample settings.local.php"
 date: 2018-04-09T00:20:25+08:00
+tags: [drupal, settings, example]
 draft: false
 ---
 

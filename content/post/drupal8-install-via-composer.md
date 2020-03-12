@@ -1,6 +1,7 @@
 ---
 title: "Drupal8 Install via Composer"
 date: 2018-04-09T00:09:39+08:00
+tags: [drupal, drush, d8, composer, install]
 draft: false
 ---
 

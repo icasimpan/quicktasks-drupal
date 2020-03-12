@@ -1,6 +1,7 @@
 ---
 title: "Drupal8 Manual Install via Drush"
 date: 2018-04-09T00:09:39+08:00
+tags: [drupal, drush, install, d8]
 draft: false
 ---
 

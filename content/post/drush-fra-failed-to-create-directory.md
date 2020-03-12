@@ -1,6 +1,7 @@
 ---
 title: "error: 'drush -fra -y' Failed to Create Directory"
 date: 2018-04-09T00:20:23+08:00
+tags: [drupal, feature, permission, error, failure]
 draft: false
 ---
 

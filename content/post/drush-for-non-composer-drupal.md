@@ -1,6 +1,7 @@
 ---
 title: "Drush for non-composer drupal"
 date: 2018-04-09T00:20:25+08:00
+tags: [drupal, composer, drush]
 draft: false
 ---
 

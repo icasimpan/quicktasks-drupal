@@ -1,6 +1,7 @@
 ---
 title: "Drupal 8 Error Code 1 in Drupal Entity Updates"
 date: 2020-01-18T00:20:25+08:00
+tags: [drupal, d8, composer, entity]
 draft: false
 ---
 

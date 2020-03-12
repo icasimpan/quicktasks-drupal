@@ -1,9 +1,10 @@
-+++
-title = "Drupal Logs"
-date = "2018-04-08T23:50:10+08:00"
-categories = ["misc"]
-draft = "false"
-+++
+---
+title: "Drupal Logs"
+date: "2018-04-08T23:50:10+08:00"
+categories: ["misc"]
+tags: [drupal, logs, drush]
+draft: "false"
+---
 
 From Web Browser:
 

@@ -1,6 +1,7 @@
 ---
 title: "Getting Errors with Drush rr not Installed"
 date: 2018-04-09T00:12:49+08:00
+tags: [drupal, rr, registry, drush, error, failure]
 draft: false
 ---
 

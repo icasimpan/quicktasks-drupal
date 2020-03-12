@@ -1,6 +1,7 @@
 ---
 title: "Drush Installation"
 date: 2018-04-09T00:18:01+08:00
+tags: [drupal, drush, installation]
 draft: false
 ---
 1. Go to your drupal root

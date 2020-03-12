@@ -1,11 +1,12 @@
 ---
 title: "Force http to https"
 date: 2018-04-09T00:20:25+08:00
+tags: [drupal, htaccess, https, secure, forced]
 draft: false
 ---
 
 ```
-root@nmhschool:/var/www/sites/yoursite.example.com/www# git diff .htaccess
+root@example.com:/var/www/sites/yoursite.example.com/www# git diff .htaccess
 diff --git a/www/.htaccess b/www/.htaccess
 index 440cabc..968f601 100644
 --- a/www/.htaccess

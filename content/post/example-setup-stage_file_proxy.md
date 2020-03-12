@@ -1,6 +1,7 @@
 ---
 title: "Example Setup for stage_file_proxy"
 date: 2018-04-09T00:20:25+08:00
+tags: [drupal, drush, module, stage_file_proxy]
 draft: false
 ---
 

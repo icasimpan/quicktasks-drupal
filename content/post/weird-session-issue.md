@@ -1,6 +1,7 @@
 ---
 title: "Weird session issue in drupal"
 date: 2020-02-11T00:18:01+08:00
+tags: [drupal, session, php]
 draft: false
 ---
 

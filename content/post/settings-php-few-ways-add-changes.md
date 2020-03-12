@@ -1,6 +1,7 @@
 ---
 title: "settings.php: Few Ways to Add Changes"
 date: 2018-04-09T00:20:33+08:00
+tags: [drupal, settings, configuration]
 draft: false
 ---
 

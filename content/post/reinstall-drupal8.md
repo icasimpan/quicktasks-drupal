@@ -1,6 +1,7 @@
 ---
 title: "Reinstall Drupal8"
 date: 2018-04-09T00:12:49+08:00
+tags: [drupal, install, d8]
 draft: false
 ---
 

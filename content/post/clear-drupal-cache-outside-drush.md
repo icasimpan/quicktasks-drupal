@@ -1,9 +1,10 @@
-+++
-title = "Clear Drupal Cache Outside Drush"
-date = "2018-04-08T23:45:58+08:00"
-categories = ["misc"]
-draft = "false"
-+++
+---
+title: "Clear Drupal Cache Outside Drush"
+date: "2018-04-08T23:45:58+08:00"
+tags: [drupal, cache, drush, drupal-admin, performance, configuration]
+categories: ["misc"]
+draft: "false"
+---
 
 From drupal admin UI: Administration > Configuration > Development > Performance
  

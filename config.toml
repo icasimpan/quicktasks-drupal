@@ -1,9 +1,0 @@
-baseURL = "https://ismael.casimpan.com/quicktasks-drupal"
-languageCode = "en-us"
-title = "Quick Tasks: Drupal"
-theme = "basics"
-
-[params]
-    author = "Ismael Casimpan"
-    github = "icasimpan"
-    #gitlab = "username2"
