@@ -1,5 +1,5 @@
 ---
-title: "Failed to open stream: DrupalTemporaryStreamWrapper::stream_open
+title: "Failed to open stream: DrupalTemporaryStreamWrapper::stream_open"
 date: "2020-04-17T23:50:10+08:00"
 tags: [drupal, error, settings, tempfile, private-file]
 draft: "false"
