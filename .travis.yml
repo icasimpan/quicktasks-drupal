@@ -8,7 +8,7 @@ env:
   - REPO="quicktasks-drupal"
   - BUILD_DIR="public"
   - GH_REPO="github.com/${USER}/${REPO}.git"
-  - HUGO_INSTALLER_URL="https://github.com/gohugoio/hugo/releases/download/v0.70.0/hugo_0.70.0_Linux-64bit.deb"
+  - HUGO_INSTALLER_URL="https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.69.2_Linux-64bit.deb"
   - GH_PUBLISH_BRANCH='gh-pages'
 
 ## Force commit to 'gh-pages' the built hugo site
