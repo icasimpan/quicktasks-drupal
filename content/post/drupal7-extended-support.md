@@ -1,6 +1,6 @@
 ---
 title: "Drupal7 Extended Support"
-date: 2018-04-09T00:20:25+08:00
+date: 2020-06-03T00:20:25+08:00
 tags: [drupal, drupal7, extended-support]
 draft: false
 ---
