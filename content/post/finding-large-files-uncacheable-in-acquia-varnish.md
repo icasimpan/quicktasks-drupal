@@ -1,5 +1,4 @@
 ---
-finding-large-files-uncacheable-in-acquia-varnish.md
 title: "Finding Large Files Uncacheable in Acquia Varnish"
 date: 2020-05-18T00:20:25+08:00
 tags: [drupal, acquia, varnish, cache, files, large-files]
