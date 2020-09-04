@@ -20,9 +20,16 @@ Seems to be an issue with the temp file. Check "drush st" and confirm if the tem
 This gives some hints on how to set the "temp and private files" in drupal setttings  https://www.drupal.org/forum/support/installing-drupal/2011-03-01/failed-to-open-stream-drupaltemporarystreamwrapperstream#comment-4258986
 
 However, my test showed using "/tmp" doesn't seem to reflected in drupal.
-What works is adding the full path, something like this (valid only in D7, D8 syntax is different, see earlier link above from drupal.org)
+What works is adding the full path, something like this 
+
+in Drupal 7
 
 ```
 $conf['file_temporary_path'] = '/full-path/drupal-site/docroot/private-temp';
 $conf['file_private_path']   = '/full-path/drupal-site/docroot/private-files';
+```
+
+in Drupal 8/9:
+```
+$config['system.file']['path']['temporary'] = '/tmp';
 ```
