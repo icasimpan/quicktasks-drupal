@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>drush-alias on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/drush-alias/</link>
+    <description>Recent content in drush-alias on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2018 00:20:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/drush-alias/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pantheon.io: Can&#39;t see drush aliases to some sites (despite having organization access)</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/pantheon-cannot-see-drush-aliases-despite-org-access/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:27 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/pantheon-cannot-see-drush-aliases-despite-org-access/</guid>
+      <description>You need to be part of the &amp;ldquo;Team&amp;rdquo;. Access the site name and go to &amp;ldquo;Team&amp;rdquo; and add yourself(assuming you have access). Check back the aliases and you should have it now.</description>
+    </item>
+    
+    <item>
+      <title>pantheon.io: drush aliases download</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/pantheon-drush-aliases-download/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/pantheon-drush-aliases-download/</guid>
+      <description>Your Username &amp;gt; Dashboard &amp;gt; Drush Aliases</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>d8 on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/d8/</link>
+    <description>Recent content in d8 on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/d8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal User Blocked in D7</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal-user-blocked-in-d7/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal-user-blocked-in-d7/</guid>
+      <description>How to reset user after being blocked (d7 and works in D8 as well).
+MySQL&amp;gt; delete from flood where identifier=&amp;lt;uid&amp;gt;;  To get the uid, search as follows:
+MySQL&amp;gt; select uid, name from users where name like &#39;%NameHere%&#39;\G;  Details in https://www.drupal.org/node/1023440
+NOTE: Observed to work as well in D8 with some adjustments to checking the uid which seems to be in users_data already.</description>
+    </item>
+    
+    <item>
+      <title>Drupal 8 Error Code 1 in Drupal Entity Updates</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/error-code1-in-drupal-entity-updates/</link>
+      <pubDate>Sat, 18 Jan 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/error-code1-in-drupal-entity-updates/</guid>
+      <description>At the end of composer install, the following was shown:
+In UpdateDBCommands.php line 109: Drupal removed its automatic entity-updates API in 8.7. See https://www.dru pal.org/node/3034742. entity:updates [--cache-clear [CACHE-CLEAR]] [--no-cache-clear] [-h|--help] [-q|--quiet] [-v|vv|vvv|--verbose] [-V|--version] [--ansi] [--no-ansi] [-n|--no-interaction] [-d|--debug] [-y|--yes] [--no] [--remote-host REMOTE-HOST] [--remote-user REMOTE-USER] [-r|--root ROOT] [-l|--uri URI] [--simulate] [--pipe] [-D|--define DEFINE] [--notify [NOTIFY]] [--druplicon] [--xh-link XH-LINK] [--] &amp;lt;command&amp;gt; Script sh scripts/composer/updates.sh handling the drupal-updates event returned with error code 1 Script @drupal-updates was called via post-install-cmd  This is just a info message and not an error.</description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Broken Web UI</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-broken-webui/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-broken-webui/</guid>
+      <description>Most probably caused by CSS/JS Aggreggation. Disable it by doing the following:
+Can edit settings.php - add the following:
+$config[&#39;system.performance&#39;][&#39;css&#39;][&#39;preprocess&#39;] = FALSE; $config[&#39;system.performance&#39;][&#39;js&#39;][&#39;preprocess&#39;] = FALSE;  In Drupal Admin
+-site-/admin/config/development/performance
+Uncheck two checkboxes:
+ Aggregate CSS files Aggregate JavaScript files  Reference: https://www.drupal.org/forum/support/post-installation/2017-04-02/disabling-caching-cssjs-aggregation</description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Entities neeeds to be deleted before importing error</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-entities-needs-deleted-before-import/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-entities-needs-deleted-before-import/</guid>
+      <description>The following was seen during configuration import (drush cim)
+ The import failed due to the following reasons: Entities exist of type &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Shortcut link&amp;lt;/em&amp;gt; and &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Shortcut set&amp;lt;/em&amp;gt; &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Default&amp;lt;/em&amp;gt;. These entities need to be deleted before importing.  Fix by running this:
+drush ev &#39;\Drupal::entityManager()-&amp;gt;getStorage(&amp;quot;shortcut_set&amp;quot;)-&amp;gt;load(&amp;quot;default&amp;quot;)-&amp;gt;delete();&#39;  Reference: https://www.drupal.org/forum/support/post-installation/2015-12-20/problem-during-import-configuration</description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Site UUID in source storage does not match the target storage</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-site-uuid-in-source-storage-does-not-match-the-target-storage/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-site-uuid-in-source-storage-does-not-match-the-target-storage/</guid>
+      <description>Problem
+You encountered this error when running &amp;lsquo;drush cim&amp;rsquo;:
+Site UUID in source storage does not match the target storage.  As mentioned, UUID no longer match. To fix, get the UUID in config/sync directory, something like below:
+awk &#39;{for (I=1;I&amp;lt;=NF;I++) if ($I == &amp;quot;uuid:&amp;quot;) {print $(I+1)};}&#39; sites/default/config/sync/system.site.yml  and assuming you get this value:
+d5835485-ed5e-433a-b782-41eca3ef7727  Set that to current installation as follows:
+drush cset system.site uuid d5835485-ed5e-433a-b782-41eca3ef7727 -y  Rerun &amp;lsquo;drush cim&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>Reinstall Drupal8</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/reinstall-drupal8/</link>
+      <pubDate>Mon, 09 Apr 2018 00:12:49 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/reinstall-drupal8/</guid>
+      <description>Empty the files directory. Replace the settings.php file with a copy of the default.settings.php file. Add write permissions to the settings.php file. Drop all tables in the database. Reinstall the site on http://yoursite.com/core/install.php.  Ref http://dribbit.eu/drupal-8/reinstall-drupal-8</description>
+    </item>
+    
+    <item>
+      <title>Drupal8 Install via Composer</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-install-via-composer/</link>
+      <pubDate>Mon, 09 Apr 2018 00:09:39 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-install-via-composer/</guid>
+      <description>NOTE:
+ Noticed some memory issue during installation on a VM with 2GB RAM, so if it happens to you, just augment with swap file.  cd /var/www/sites composer create-project drupal-composer/drupal-project:8.x yoursite.example.com --stability dev --no-interaction ../vendor/bin/drush site-install --site-name=&amp;quot;Drupal Title Here&amp;quot; --db-url=mysql://yourDBA:yourPASS@localhost/yourDB --account-mail=admin@example.com --account-pass=acountPassw0RD -y  </description>
+    </item>
+    
+    <item>
+      <title>Drupal8 Manual Install via Drush</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-manual-install-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:09:39 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-manual-install-via-drush/</guid>
+      <description>NOTE:
+ Per https://www.drupal.org/project/drupal/releases/8.4.0, drupal8.4.x needs drush 8.1.12+ Method works but has theme issue. Better to use composer method instead.   cd /var/www/sites/yourdrupal.com/ drush dl drupal-8 mv drupal-8.4.5 docroot composer install composer update composer require drush/drush drush si &amp;ndash;db-url=&#39;mysql://yourDBA:yourPASS@127.0.0.1/yourDB&amp;rsquo;  Steps 4, 5, 6 are mandatory per site. Some reference for drush install of drupal8 in https://drupal.stackexchange.com/questions/130680/downloading-core-via-command-line</description>
+    </item>
+    
+  </channel>
+</rss>

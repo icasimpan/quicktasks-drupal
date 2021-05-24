@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>user on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/user/</link>
+    <description>Recent content in user on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/user/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal User Blocked in D7</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal-user-blocked-in-d7/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal-user-blocked-in-d7/</guid>
+      <description>How to reset user after being blocked (d7 and works in D8 as well).
+MySQL&amp;gt; delete from flood where identifier=&amp;lt;uid&amp;gt;;  To get the uid, search as follows:
+MySQL&amp;gt; select uid, name from users where name like &#39;%NameHere%&#39;\G;  Details in https://www.drupal.org/node/1023440
+NOTE: Observed to work as well in D8 with some adjustments to checking the uid which seems to be in users_data already.</description>
+    </item>
+    
+    <item>
+      <title>Create Drupal Admin User via Drush</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/create-drupal-admin-user-via-drush/</link>
+      <pubDate>Sun, 24 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/create-drupal-admin-user-via-drush/</guid>
+      <description>## Generate drupal admin access. ## drush user:create admin --mail=&amp;quot;admin.NOREPLY@example.com&amp;quot; --password=&amp;quot;admin&amp;quot; drush user:role:add &amp;quot;administrator&amp;quot; admin  </description>
+    </item>
+    
+    <item>
+      <title>Change drupal user credential</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/change-drupal-credential/</link>
+      <pubDate>Mon, 30 Mar 2020 00:14:45 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/change-drupal-credential/</guid>
+      <description>Go to drupal root, then:
+drush upwd --password=&amp;quot;newPassword_here&amp;quot; &amp;quot;the_user&amp;quot;  More info in https://www.drupal.org/node/44164</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nginx on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/nginx/</link>
+    <description>Recent content in nginx on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2018 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nginx 404 when in Drupal Admin</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/nginx-404-when-in-drupal-admin/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/nginx-404-when-in-drupal-admin/</guid>
+      <description>This lacks URL rewriting. See https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/</description>
+    </item>
+    
+  </channel>
+</rss>

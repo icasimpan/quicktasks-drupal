@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>error on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/error/</link>
+    <description>Recent content in error on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Apr 2020 23:50:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Failed to open stream: DrupalTemporaryStreamWrapper::stream_open</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/failed-to-open-stream-drupaltemporarystreamwrapperstream/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/failed-to-open-stream-drupaltemporarystreamwrapperstream/</guid>
+      <description>From CLI
+This error is shown:
+failed to open stream: &amp;quot;DrupalTemporaryStreamWrapper::stream_open&amp;quot; call failed file.inc:1983  Solution
+Seems to be an issue with the temp file. Check &amp;ldquo;drush st&amp;rdquo; and confirm if the temp file is still accessible.
+This gives some hints on how to set the &amp;ldquo;temp and private files&amp;rdquo; in drupal setttings https://www.drupal.org/forum/support/installing-drupal/2011-03-01/failed-to-open-stream-drupaltemporarystreamwrapperstream#comment-4258986
+However, my test showed using &amp;ldquo;/tmp&amp;rdquo; doesn&amp;rsquo;t seem to reflected in drupal. What works is adding the full path, something like this</description>
+    </item>
+    
+    <item>
+      <title>Fatal Error: Call to undefined function cache_get()</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/fatal-error-call-to-undefined-function-cache_get/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/fatal-error-call-to-undefined-function-cache_get/</guid>
+      <description>From CLI
+ drush st  This error is shown:
+PHP Fatal error: Uncaught Error: Call to undefined function cache_get() in xxxx  Solution
+Is always due to php syntax error. What did you add just recently? Perhaps a semicolon is missing in settings.local.php?
+Further information in https://www.drupal.org/forum/support/post-installation/2016-06-23/fatal-error-call-to-undefined-function-cache_get</description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Broken Web UI</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-broken-webui/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-broken-webui/</guid>
+      <description>Most probably caused by CSS/JS Aggreggation. Disable it by doing the following:
+Can edit settings.php - add the following:
+$config[&#39;system.performance&#39;][&#39;css&#39;][&#39;preprocess&#39;] = FALSE; $config[&#39;system.performance&#39;][&#39;js&#39;][&#39;preprocess&#39;] = FALSE;  In Drupal Admin
+-site-/admin/config/development/performance
+Uncheck two checkboxes:
+ Aggregate CSS files Aggregate JavaScript files  Reference: https://www.drupal.org/forum/support/post-installation/2017-04-02/disabling-caching-cssjs-aggregation</description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Entities neeeds to be deleted before importing error</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-entities-needs-deleted-before-import/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-entities-needs-deleted-before-import/</guid>
+      <description>The following was seen during configuration import (drush cim)
+ The import failed due to the following reasons: Entities exist of type &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Shortcut link&amp;lt;/em&amp;gt; and &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Shortcut set&amp;lt;/em&amp;gt; &amp;lt;em class=&amp;quot;placeholder&amp;quot;&amp;gt;Default&amp;lt;/em&amp;gt;. These entities need to be deleted before importing.  Fix by running this:
+drush ev &#39;\Drupal::entityManager()-&amp;gt;getStorage(&amp;quot;shortcut_set&amp;quot;)-&amp;gt;load(&amp;quot;default&amp;quot;)-&amp;gt;delete();&#39;  Reference: https://www.drupal.org/forum/support/post-installation/2015-12-20/problem-during-import-configuration</description>
+    </item>
+    
+    <item>
+      <title>BASH_FUNC_module error</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/bash_func_module-error/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/bash_func_module-error/</guid>
+      <description>This error is seen as follows:
+sh: module: line 1: syntax error: unexpected end of file sh: error importing function definition for `BASH_FUNC_module&#39;  A lot of discussions has been done about it in https://github.com/drush-ops/drush/issues/2065#issuecomment-227820550 but the fix is made from /etc/php.ini:
+disable_functions = pcntl_exec  </description>
+    </item>
+    
+    <item>
+      <title>error: &#39;drush -fra -y&#39; Failed to Create Directory</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drush-fra-failed-to-create-directory/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:23 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drush-fra-failed-to-create-directory/</guid>
+      <description>bash-4.1$ /usr/local/bin/drush cc all ‘all’ cache was cleared. [success] bash-4.1$ /usr/local/bin/drush fra -y WD print_pdf: Failed to create directory “public://print_pdf/print_pdf_mpdf/ttfontdata” for print_pdf_mpdf. [error] WD print_pdf: Failed to create directory “public://print_pdf/print_pdf_mpdf/tmp” for print_pdf_mpdf. [error] The following modules will be reverted: content_set_4 Do you really want to continue? (y/n): y Reverted content_set_4.field_group. [ok] bash-4.1$ /usr/local/bin/drush fra -y The following modules will be reverted: content_set_4 Do you really want to continue? (y/n): y Reverted content_set_4.</description>
+    </item>
+    
+    <item>
+      <title>Getting Errors with Drush rr not Installed</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/getting-errors-with-drush-rr-not-installed/</link>
+      <pubDate>Mon, 09 Apr 2018 00:12:49 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/getting-errors-with-drush-rr-not-installed/</guid>
+      <description>drush @none dl registry_rebuild-7.x  See https://www.drupal.org/project/registry_rebuild or https://www.deeson.co.uk/labs/drush-registry-rebuild</description>
+    </item>
+    
+    <item>
+      <title>File Permission Problems</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/file-permission-problems/</link>
+      <pubDate>Sun, 08 Apr 2018 23:44:45 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/file-permission-problems/</guid>
+      <description>Changing group ownership of the files in &amp;ldquo;sites/default/files&amp;rdquo;. More details in https://www.drupal.org/docs/7/install/setting-up-the-files-directory</description>
+    </item>
+    
+  </channel>
+</rss>

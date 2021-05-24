@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>config on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/config/</link>
+    <description>Recent content in config on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2018 00:18:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Custom Site Title Per Drupal Installation (d8)</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/custom-title-per-drupal-installation/</link>
+      <pubDate>Mon, 09 Apr 2018 00:18:01 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/custom-title-per-drupal-installation/</guid>
+      <description>Do you have several drupal installation in a test server that you want to distinguish which is which? Add this to settings.local.php and it will override whatever is in database.
+ $config[&#39;system.site&#39;][&#39;name&#39;] = &amp;quot;Example Site (Fixes)&amp;quot;;  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>configuration on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/configuration/</link>
+    <description>Recent content in configuration on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2018 00:20:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>settings.php: Few Ways to Add Changes</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/settings-php-few-ways-add-changes/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:33 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/settings-php-few-ways-add-changes/</guid>
+      <description>Method 1 (env.json) in drupalroot/sites/default/env.json
+{ &amp;quot;conf_dir&amp;quot;: &amp;quot;/etc/drupal/site_identifier_here/default&amp;quot; }  in /etc/drupal/site_identifier_here/default, there is then a file globals.conf.d/globals.default.json with content:
+{ &amp;quot;id&amp;quot;: &amp;quot;default&amp;quot;, &amp;quot;databases&amp;quot;: { &amp;quot;default&amp;quot;: { &amp;quot;default&amp;quot;: { &amp;quot;database&amp;quot;: &amp;quot;yourDB&amp;quot;, &amp;quot;username&amp;quot;: &amp;quot;yourDBA&amp;quot;, &amp;quot;password&amp;quot;: &amp;quot;yourPASS&amp;quot;, &amp;quot;host&amp;quot;: &amp;quot;127.0.0.1&amp;quot;, &amp;quot;driver&amp;quot;: &amp;quot;mysql&amp;quot; } } }, &amp;quot;uri&amp;quot;: &amp;quot;example.com&amp;quot;, &amp;quot;doc_root&amp;quot;: &amp;quot;www&amp;quot;, &amp;quot;chef_type&amp;quot;: &amp;quot;data_bag_item&amp;quot;, &amp;quot;data_bag&amp;quot;: &amp;quot;drupal&amp;quot; } *Method 2: Referenced from settings.php* See https://ismael.casimpan.com/quicktasks-drupal/post/settings-php-including-settings-local/ With sample settings.local.php in https://ismael.casimpan.com/quicktasks-drupal/post/settings-php-sample-settings-local/  </description>
+    </item>
+    
+    <item>
+      <title>BASH_FUNC_module error</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/bash_func_module-error/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/bash_func_module-error/</guid>
+      <description>This error is seen as follows:
+sh: module: line 1: syntax error: unexpected end of file sh: error importing function definition for `BASH_FUNC_module&#39;  A lot of discussions has been done about it in https://github.com/drush-ops/drush/issues/2065#issuecomment-227820550 but the fix is made from /etc/php.ini:
+disable_functions = pcntl_exec  </description>
+    </item>
+    
+    <item>
+      <title>Drupal 8: Site UUID in source storage does not match the target storage</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-site-uuid-in-source-storage-does-not-match-the-target-storage/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-site-uuid-in-source-storage-does-not-match-the-target-storage/</guid>
+      <description>Problem
+You encountered this error when running &amp;lsquo;drush cim&amp;rsquo;:
+Site UUID in source storage does not match the target storage.  As mentioned, UUID no longer match. To fix, get the UUID in config/sync directory, something like below:
+awk &#39;{for (I=1;I&amp;lt;=NF;I++) if ($I == &amp;quot;uuid:&amp;quot;) {print $(I+1)};}&#39; sites/default/config/sync/system.site.yml  and assuming you get this value:
+d5835485-ed5e-433a-b782-41eca3ef7727  Set that to current installation as follows:
+drush cset system.site uuid d5835485-ed5e-433a-b782-41eca3ef7727 -y  Rerun &amp;lsquo;drush cim&amp;rsquo;</description>
+    </item>
+    
+    <item>
+      <title>pantheon.io: drush aliases download</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/pantheon-drush-aliases-download/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/pantheon-drush-aliases-download/</guid>
+      <description>Your Username &amp;gt; Dashboard &amp;gt; Drush Aliases</description>
+    </item>
+    
+    <item>
+      <title>settings.php: Adding reference to settings.local.php</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/settings-php-including-settings-local/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/settings-php-including-settings-local/</guid>
+      <description>/** * Load local development override configuration, if available. * * Use settings.local.php to override variables on secondary (staging, * development, etc) installations of this site. Typically used to disable * caching, JavaScript/CSS compression, re-routing of outgoing emails, and * other things that should not happen on development and testing sites. * * Keep this code block at the end of this file to take full effect. */ if (file_exists(__DIR__ .</description>
+    </item>
+    
+    <item>
+      <title>Clear Drupal Cache Outside Drush</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/clear-drupal-cache-outside-drush/</link>
+      <pubDate>Sun, 08 Apr 2018 23:45:58 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/clear-drupal-cache-outside-drush/</guid>
+      <description>From drupal admin UI: Administration &amp;gt; Configuration &amp;gt; Development &amp;gt; Performance
+But will work only if you have drupal admin login. Otherwise, you need to install drush instead and do the &amp;lsquo;drush cc all&amp;rsquo; from there. Some other options -&amp;gt; https://www.drupal.org/docs/7/administering-drupal-7-site/clearing-or-rebuilding-drupals-cache</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>install on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/install/</link>
+    <description>Recent content in install on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2018 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drupal7 install via drush</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal7-install-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal7-install-via-drush/</guid>
+      <description>cd /var/www/sites drush dl drupal-7 --destination=yoursite.example.com --drupal-project-rename=www -y cd yoursite.example.com/www drush site-install standard --account-name=admin --account-pass=admin --db-url=mysql://myDBA:myDBPASS@localhost/myDB -y  See http://www.coderintherye.com/install-drupal-7-using-drush</description>
+    </item>
+    
+    <item>
+      <title>Install and switch between different drush versions</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/install-and-switch-between-drush-versions/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/install-and-switch-between-drush-versions/</guid>
+      <description>See https://www.lullabot.com/articles/switching-drush-versions</description>
+    </item>
+    
+    <item>
+      <title>Reinstall Drupal8</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/reinstall-drupal8/</link>
+      <pubDate>Mon, 09 Apr 2018 00:12:49 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/reinstall-drupal8/</guid>
+      <description>Empty the files directory. Replace the settings.php file with a copy of the default.settings.php file. Add write permissions to the settings.php file. Drop all tables in the database. Reinstall the site on http://yoursite.com/core/install.php.  Ref http://dribbit.eu/drupal-8/reinstall-drupal-8</description>
+    </item>
+    
+    <item>
+      <title>Drupal8 Install via Composer</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-install-via-composer/</link>
+      <pubDate>Mon, 09 Apr 2018 00:09:39 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-install-via-composer/</guid>
+      <description>NOTE:
+ Noticed some memory issue during installation on a VM with 2GB RAM, so if it happens to you, just augment with swap file.  cd /var/www/sites composer create-project drupal-composer/drupal-project:8.x yoursite.example.com --stability dev --no-interaction ../vendor/bin/drush site-install --site-name=&amp;quot;Drupal Title Here&amp;quot; --db-url=mysql://yourDBA:yourPASS@localhost/yourDB --account-mail=admin@example.com --account-pass=acountPassw0RD -y  </description>
+    </item>
+    
+    <item>
+      <title>Drupal8 Manual Install via Drush</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drupal8-manual-install-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:09:39 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drupal8-manual-install-via-drush/</guid>
+      <description>NOTE:
+ Per https://www.drupal.org/project/drupal/releases/8.4.0, drupal8.4.x needs drush 8.1.12+ Method works but has theme issue. Better to use composer method instead.   cd /var/www/sites/yourdrupal.com/ drush dl drupal-8 mv drupal-8.4.5 docroot composer install composer update composer require drush/drush drush si &amp;ndash;db-url=&#39;mysql://yourDBA:yourPASS@127.0.0.1/yourDB&amp;rsquo;  Steps 4, 5, 6 are mandatory per site. Some reference for drush install of drupal8 in https://drupal.stackexchange.com/questions/130680/downloading-core-via-command-line</description>
+    </item>
+    
+  </channel>
+</rss>

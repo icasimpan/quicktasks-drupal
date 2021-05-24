@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fatal on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/fatal/</link>
+    <description>Recent content in fatal on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Apr 2020 23:50:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/fatal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fatal Error: Call to undefined function cache_get()</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/fatal-error-call-to-undefined-function-cache_get/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/fatal-error-call-to-undefined-function-cache_get/</guid>
+      <description>From CLI
+ drush st  This error is shown:
+PHP Fatal error: Uncaught Error: Call to undefined function cache_get() in xxxx  Solution
+Is always due to php syntax error. What did you add just recently? Perhaps a semicolon is missing in settings.local.php?
+Further information in https://www.drupal.org/forum/support/post-installation/2016-06-23/fatal-error-call-to-undefined-function-cache_get</description>
+    </item>
+    
+  </channel>
+</rss>

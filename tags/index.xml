@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/</link>
+    <description>Recent content in Tags on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Oct 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>contrib</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/contrib/</link>
+      <pubDate>Thu, 08 Oct 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/contrib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drupal</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/drupal/</link>
+      <pubDate>Thu, 08 Oct 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modules</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/modules/</link>
+      <pubDate>Thu, 08 Oct 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/modules/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aggregation</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/aggregation/</link>
+      <pubDate>Fri, 18 Sep 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/aggregation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>settings</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/settings/</link>
+      <pubDate>Fri, 18 Sep 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/settings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audit</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/audit/</link>
+      <pubDate>Sat, 05 Sep 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/audit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reports</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/reports/</link>
+      <pubDate>Sat, 05 Sep 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drush</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/drush/</link>
+      <pubDate>Tue, 04 Aug 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/drush/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>installation</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/installation/</link>
+      <pubDate>Tue, 04 Aug 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>module</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/module/</link>
+      <pubDate>Tue, 04 Aug 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acquia</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/acquia/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/acquia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blocked</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/blocked/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/blocked/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cron</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/cron/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/cron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>d7</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/d7/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/d7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>d8</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/d8/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/d8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reset</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/reset/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/reset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/user/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>key_value</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/key_value/</link>
+      <pubDate>Sat, 06 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/key_value/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>troubleshooting</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/troubleshooting/</link>
+      <pubDate>Sat, 06 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>downtime</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/downtime/</link>
+      <pubDate>Fri, 05 Jun 2020 00:20:31 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/downtime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drupal9</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/drupal9/</link>
+      <pubDate>Wed, 03 Jun 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/drupal9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>migration</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/migration/</link>
+      <pubDate>Wed, 03 Jun 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drupal7</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/drupal7/</link>
+      <pubDate>Wed, 03 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/drupal7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extended-support</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/extended-support/</link>
+      <pubDate>Wed, 03 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/extended-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cache</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/cache/</link>
+      <pubDate>Mon, 18 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>files</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/files/</link>
+      <pubDate>Mon, 18 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>large-files</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/large-files/</link>
+      <pubDate>Mon, 18 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/large-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>varnish</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/varnish/</link>
+      <pubDate>Mon, 18 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/varnish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>404</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/404/</link>
+      <pubDate>Fri, 01 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/404/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>login</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/login/</link>
+      <pubDate>Fri, 01 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/login/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>error</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/error/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/error/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fatal</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/fatal/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/fatal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fatal-error</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/fatal-error/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/fatal-error/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php-syntax</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/php-syntax/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/php-syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>private-file</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/private-file/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/private-file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tempfile</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/tempfile/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/tempfile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>credentials</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/credentials/</link>
+      <pubDate>Mon, 30 Mar 2020 00:14:45 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/credentials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/php/</link>
+      <pubDate>Tue, 11 Feb 2020 00:18:01 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>session</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/session/</link>
+      <pubDate>Tue, 11 Feb 2020 00:18:01 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/session/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>composer</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/composer/</link>
+      <pubDate>Sat, 18 Jan 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/composer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entity</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/entity/</link>
+      <pubDate>Sat, 18 Jan 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/entity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>broken</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/broken/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/broken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cim</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/cim/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/cim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>configuratio</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/configuratio/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/configuratio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entities</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/entities/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/entities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>import</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/import/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/import/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ui</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/ui/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ux</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/ux/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/ux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webui</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/webui/</link>
+      <pubDate>Sat, 21 Sep 2019 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/webui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/database/</link>
+      <pubDate>Mon, 09 Apr 2018 00:21:46 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/mysql/</link>
+      <pubDate>Mon, 09 Apr 2018 00:21:46 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/sql/</link>
+      <pubDate>Mon, 09 Apr 2018 00:21:46 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tables</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/tables/</link>
+      <pubDate>Mon, 09 Apr 2018 00:21:46 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/tables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>configuration</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/configuration/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:33 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backups</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/backups/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:31 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/backups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/cli/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:31 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deploy</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/deploy/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:29 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/deploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/developer/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:29 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pantheon.io</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/pantheon.io/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:29 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/pantheon.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drush-alias</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/drush-alias/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:27 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/drush-alias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/admin/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/bash/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>caching</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/caching/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/caching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diff</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/diff/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/diff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>example</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/example/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>features</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/features/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forced</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/forced/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/forced/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>htaccess</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/htaccess/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/htaccess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>https</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/https/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/https/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>include</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/include/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/include/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>install</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/install/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logs</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/logs/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/logs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maintenance</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/maintenance/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/maintenance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memcache</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/memcache/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/memcache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/nginx/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>restore</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/restore/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/restore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>search</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/search/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>secure</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/secure/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/secure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stage_file_proxy</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/stage_file_proxy/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/stage_file_proxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminus</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/terminus/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/terminus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/ubuntu/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uli</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/uli/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/uli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uuid</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/uuid/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/uuid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>failure</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/failure/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:23 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/failure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feature</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/feature/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:23 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/feature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>permission</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/permission/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:23 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/permission/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>config</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/config/</link>
+      <pubDate>Mon, 09 Apr 2018 00:18:01 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/config/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>title</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/title/</link>
+      <pubDate>Mon, 09 Apr 2018 00:18:01 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/title/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drupaladmin</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/drupaladmin/</link>
+      <pubDate>Mon, 09 Apr 2018 00:15:59 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/drupaladmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phpinfo</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/phpinfo/</link>
+      <pubDate>Mon, 09 Apr 2018 00:15:59 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/phpinfo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>db</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/db/</link>
+      <pubDate>Mon, 09 Apr 2018 00:14:45 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/db/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>registry</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/registry/</link>
+      <pubDate>Mon, 09 Apr 2018 00:12:49 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/registry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rr</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/rr/</link>
+      <pubDate>Mon, 09 Apr 2018 00:12:49 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/rr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drupal-admin</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/drupal-admin/</link>
+      <pubDate>Sun, 08 Apr 2018 23:45:58 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/drupal-admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>performance</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tags/performance/</link>
+      <pubDate>Sun, 08 Apr 2018 23:45:58 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tags/performance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

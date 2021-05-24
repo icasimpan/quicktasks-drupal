@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cron on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/cron/</link>
+    <description>Recent content in cron on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/cron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What are the Tasks in Drupal Cron</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tasks-in-drupal-cron/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tasks-in-drupal-cron/</guid>
+      <description>Wondering what sort of tasks are in drupal cron? I need to know what those tasks are. You can start by searching your codebase for _cron functions.
+Remember:
+All *_cron() functions in a site will be run on cron.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/database/</link>
+    <description>Recent content in database on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2018 00:21:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drush: Drop Mysql Tables Without Deleting Database</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/drush-drop-mysql-tables-without-deleting-database/</link>
+      <pubDate>Mon, 09 Apr 2018 00:21:46 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/drush-drop-mysql-tables-without-deleting-database/</guid>
+      <description>In drupal root:
+drush sql-drop  </description>
+    </item>
+    
+    <item>
+      <title>Acquia: Full Path to Database Backups Made via GUI</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/acquia-full-path-to-database-backups/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:31 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/acquia-full-path-to-database-backups/</guid>
+      <description>From CLI, ssh to specific server and go to:
+ /mnt/files/[site].[dev | test | prod]/backups/  </description>
+    </item>
+    
+    <item>
+      <title>Restore Database via Drush</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/restore-database-via-drush/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/restore-database-via-drush/</guid>
+      <description>drush sqlc &amp;lt; database.sql  </description>
+    </item>
+    
+  </channel>
+</rss>

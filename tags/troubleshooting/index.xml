@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>troubleshooting on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/troubleshooting/</link>
+    <description>Recent content in troubleshooting on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>key_value table missing</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/key_value-missing/</link>
+      <pubDate>Sat, 06 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/key_value-missing/</guid>
+      <description>You just received a D8 database dump and it is said to be complete. However, you see this error:
+[notice] Missing database table: key_value  Said table is part of drupal8 so it can&amp;rsquo;t go missing. It could be that the table names for this site has prefix. Check using the command: {code} drush sql-drush &amp;ldquo;show tables;&amp;ldquo;|grep -i key_value {code}
+If you see something like: {code} bash-4.2$ drush sql-query &amp;ldquo;show tables;&amp;ldquo;|grep -i key_value kb_key_value kb_key_value_expire {code}</description>
+    </item>
+    
+    <item>
+      <title>Acquia: Troubleshooting Site Downtime</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/troubleshooting-acquia-site-downtime/</link>
+      <pubDate>Fri, 05 Jun 2020 00:20:31 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/troubleshooting-acquia-site-downtime/</guid>
+      <description>Below are some common performance-impacting issues that your environment(s) may be experiencing:
+ Traffic: Increased traffic to your environment(s) may be causing service to be interrupted on those environments. Apache access logs: https://docs.acquia.com/acquia-cloud/monitor/logs/ Insight: https://docs.acquia.com/acquia-cloud/insight/ Stack Metrics: https://docs.acquia.com/acquia-cloud/monitor/stackmetrics/application/ Out of memory issues: Check Stack Metrics for out of memory errors: https://docs.acquia.com/acquia-cloud/monitor/stackmetrics/ Learn to find and resolve memory related errors: https://support.acquia.com/hc/en-us/articles/360005248674-Finding-Resolving-Memory-Related-PHP-errors-in-Acquia-Cloud Application issues - Did you deploy code recently? If so, try reverting code to a previous tag that works properly.</description>
+    </item>
+    
+  </channel>
+</rss>

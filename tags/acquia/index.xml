@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>acquia on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/acquia/</link>
+    <description>Recent content in acquia on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/acquia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What are the Tasks in Drupal Cron</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/tasks-in-drupal-cron/</link>
+      <pubDate>Tue, 16 Jun 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/tasks-in-drupal-cron/</guid>
+      <description>Wondering what sort of tasks are in drupal cron? I need to know what those tasks are. You can start by searching your codebase for _cron functions.
+Remember:
+All *_cron() functions in a site will be run on cron.  </description>
+    </item>
+    
+    <item>
+      <title>Acquia: Troubleshooting Site Downtime</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/troubleshooting-acquia-site-downtime/</link>
+      <pubDate>Fri, 05 Jun 2020 00:20:31 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/troubleshooting-acquia-site-downtime/</guid>
+      <description>Below are some common performance-impacting issues that your environment(s) may be experiencing:
+ Traffic: Increased traffic to your environment(s) may be causing service to be interrupted on those environments. Apache access logs: https://docs.acquia.com/acquia-cloud/monitor/logs/ Insight: https://docs.acquia.com/acquia-cloud/insight/ Stack Metrics: https://docs.acquia.com/acquia-cloud/monitor/stackmetrics/application/ Out of memory issues: Check Stack Metrics for out of memory errors: https://docs.acquia.com/acquia-cloud/monitor/stackmetrics/ Learn to find and resolve memory related errors: https://support.acquia.com/hc/en-us/articles/360005248674-Finding-Resolving-Memory-Related-PHP-errors-in-Acquia-Cloud Application issues - Did you deploy code recently? If so, try reverting code to a previous tag that works properly.</description>
+    </item>
+    
+    <item>
+      <title>Finding Large Files Uncacheable in Acquia Varnish</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/finding-large-files-uncacheable-in-acquia-varnish/</link>
+      <pubDate>Mon, 18 May 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/finding-large-files-uncacheable-in-acquia-varnish/</guid>
+      <description>Acquia varnish cannot cache files &amp;gt;10MB as per https://docs.acquia.com/acquia-cloud/performance/varnish/files/
+To find for those &amp;gt;10MB files, search from the sites/default/files:
+find ./ -type f -size +10M -exec du -sh &#39;{}&#39; \; -print|grep -v ^\./| sort -n  </description>
+    </item>
+    
+    <item>
+      <title>Acquia: Full Path to Database Backups Made via GUI</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/acquia-full-path-to-database-backups/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:31 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/acquia-full-path-to-database-backups/</guid>
+      <description>From CLI, ssh to specific server and go to:
+ /mnt/files/[site].[dev | test | prod]/backups/  </description>
+    </item>
+    
+    <item>
+      <title>Acquia Logs</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/acquia-logs/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/acquia-logs/</guid>
+      <description>https://docs.acquia.com/acquia-cloud/files/system-files</description>
+    </item>
+    
+  </channel>
+</rss>

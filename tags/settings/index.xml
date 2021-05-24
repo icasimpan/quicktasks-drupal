@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>settings on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/settings/</link>
+    <description>Recent content in settings on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Sep 2020 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/settings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSS/JS Aggregation in Drupal</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/css-js-aggregation-drupal/</link>
+      <pubDate>Fri, 18 Sep 2020 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/css-js-aggregation-drupal/</guid>
+      <description>When you&amp;rsquo;re doing development, most of the time, you don&amp;rsquo;t want to minify css/js. Here&amp;rsquo;s how you the respective settings:
+settings.local.php (drupal 7)
+$conf[&#39;preprocess_css&#39;] = FALSE; $conf[&#39;preprocess_js&#39;] = FALSE;  settings.local.php (drupal 8 &amp;amp; 9)
+$config[&#39;system.performance&#39;][&#39;css&#39;][&#39;preprocess&#39;] = FALSE; $config[&#39;system.performance&#39;][&#39;js&#39;][&#39;preprocess&#39;] = FALSE;  drush (drupal 7)
+drush vset preprocess_js 0 --yes drush vset preprocess_css 0 --yes  drush (drupal 8 &amp;amp; 9)
+drush -y config-set system.performance css.preprocess 0 drush -y config-set system.</description>
+    </item>
+    
+    <item>
+      <title>Failed to open stream: DrupalTemporaryStreamWrapper::stream_open</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/failed-to-open-stream-drupaltemporarystreamwrapperstream/</link>
+      <pubDate>Fri, 17 Apr 2020 23:50:10 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/failed-to-open-stream-drupaltemporarystreamwrapperstream/</guid>
+      <description>From CLI
+This error is shown:
+failed to open stream: &amp;quot;DrupalTemporaryStreamWrapper::stream_open&amp;quot; call failed file.inc:1983  Solution
+Seems to be an issue with the temp file. Check &amp;ldquo;drush st&amp;rdquo; and confirm if the temp file is still accessible.
+This gives some hints on how to set the &amp;ldquo;temp and private files&amp;rdquo; in drupal setttings https://www.drupal.org/forum/support/installing-drupal/2011-03-01/failed-to-open-stream-drupaltemporarystreamwrapperstream#comment-4258986
+However, my test showed using &amp;ldquo;/tmp&amp;rdquo; doesn&amp;rsquo;t seem to reflected in drupal. What works is adding the full path, something like this</description>
+    </item>
+    
+    <item>
+      <title>settings.php: Few Ways to Add Changes</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/settings-php-few-ways-add-changes/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:33 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/settings-php-few-ways-add-changes/</guid>
+      <description>Method 1 (env.json) in drupalroot/sites/default/env.json
+{ &amp;quot;conf_dir&amp;quot;: &amp;quot;/etc/drupal/site_identifier_here/default&amp;quot; }  in /etc/drupal/site_identifier_here/default, there is then a file globals.conf.d/globals.default.json with content:
+{ &amp;quot;id&amp;quot;: &amp;quot;default&amp;quot;, &amp;quot;databases&amp;quot;: { &amp;quot;default&amp;quot;: { &amp;quot;default&amp;quot;: { &amp;quot;database&amp;quot;: &amp;quot;yourDB&amp;quot;, &amp;quot;username&amp;quot;: &amp;quot;yourDBA&amp;quot;, &amp;quot;password&amp;quot;: &amp;quot;yourPASS&amp;quot;, &amp;quot;host&amp;quot;: &amp;quot;127.0.0.1&amp;quot;, &amp;quot;driver&amp;quot;: &amp;quot;mysql&amp;quot; } } }, &amp;quot;uri&amp;quot;: &amp;quot;example.com&amp;quot;, &amp;quot;doc_root&amp;quot;: &amp;quot;www&amp;quot;, &amp;quot;chef_type&amp;quot;: &amp;quot;data_bag_item&amp;quot;, &amp;quot;data_bag&amp;quot;: &amp;quot;drupal&amp;quot; } *Method 2: Referenced from settings.php* See https://ismael.casimpan.com/quicktasks-drupal/post/settings-php-including-settings-local/ With sample settings.local.php in https://ismael.casimpan.com/quicktasks-drupal/post/settings-php-sample-settings-local/  </description>
+    </item>
+    
+    <item>
+      <title>settings.php: Adding reference to settings.local.php</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/settings-php-including-settings-local/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/settings-php-including-settings-local/</guid>
+      <description>/** * Load local development override configuration, if available. * * Use settings.local.php to override variables on secondary (staging, * development, etc) installations of this site. Typically used to disable * caching, JavaScript/CSS compression, re-routing of outgoing emails, and * other things that should not happen on development and testing sites. * * Keep this code block at the end of this file to take full effect. */ if (file_exists(__DIR__ .</description>
+    </item>
+    
+    <item>
+      <title>settings.php: Sample settings.local.php</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/settings-php-sample-settings-local/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/settings-php-sample-settings-local/</guid>
+      <description>&amp;lt;?php $databases[&#39;default&#39;][&#39;default&#39;] = array ( &#39;database&#39; =&amp;gt; &#39;yourDB&#39;, &#39;username&#39; =&amp;gt; &#39;yourDBA&#39;, &#39;password&#39; =&amp;gt; &#39;yourDBPASS&#39;, &#39;prefix&#39; =&amp;gt; &#39;&#39;, &#39;host&#39; =&amp;gt; &#39;localhost&#39;, &#39;port&#39; =&amp;gt; &#39;3306&#39;, &#39;namespace&#39; =&amp;gt; &#39;Drupal\\Core\\Database\\Driver\\mysql&#39;, &#39;driver&#39; =&amp;gt; &#39;mysql&#39;, );  EDIT: Updated to reflect new learning in https://ismael.casimpan.com/quicktasks-drupal/post/weird-session-issue/</description>
+    </item>
+    
+    <item>
+      <title>Custom Site Title Per Drupal Installation (d8)</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/custom-title-per-drupal-installation/</link>
+      <pubDate>Mon, 09 Apr 2018 00:18:01 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/custom-title-per-drupal-installation/</guid>
+      <description>Do you have several drupal installation in a test server that you want to distinguish which is which? Add this to settings.local.php and it will override whatever is in database.
+ $config[&#39;system.site&#39;][&#39;name&#39;] = &amp;quot;Example Site (Fixes)&amp;quot;;  </description>
+    </item>
+    
+  </channel>
+</rss>

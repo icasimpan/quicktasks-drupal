@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>example on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/example/</link>
+    <description>Recent content in example on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2018 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>settings.php: Sample settings.local.php</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/settings-php-sample-settings-local/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/settings-php-sample-settings-local/</guid>
+      <description>&amp;lt;?php $databases[&#39;default&#39;][&#39;default&#39;] = array ( &#39;database&#39; =&amp;gt; &#39;yourDB&#39;, &#39;username&#39; =&amp;gt; &#39;yourDBA&#39;, &#39;password&#39; =&amp;gt; &#39;yourDBPASS&#39;, &#39;prefix&#39; =&amp;gt; &#39;&#39;, &#39;host&#39; =&amp;gt; &#39;localhost&#39;, &#39;port&#39; =&amp;gt; &#39;3306&#39;, &#39;namespace&#39; =&amp;gt; &#39;Drupal\\Core\\Database\\Driver\\mysql&#39;, &#39;driver&#39; =&amp;gt; &#39;mysql&#39;, );  EDIT: Updated to reflect new learning in https://ismael.casimpan.com/quicktasks-drupal/post/weird-session-issue/</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>include on Drupal | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-drupal/tags/include/</link>
+    <description>Recent content in include on Drupal | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Apr 2018 00:20:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-drupal/tags/include/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>settings.php: Adding reference to settings.local.php</title>
+      <link>https://ismael.casimpan.com/quicktasks-drupal/settings-php-including-settings-local/</link>
+      <pubDate>Mon, 09 Apr 2018 00:20:25 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-drupal/settings-php-including-settings-local/</guid>
+      <description>/** * Load local development override configuration, if available. * * Use settings.local.php to override variables on secondary (staging, * development, etc) installations of this site. Typically used to disable * caching, JavaScript/CSS compression, re-routing of outgoing emails, and * other things that should not happen on development and testing sites. * * Keep this code block at the end of this file to take full effect. */ if (file_exists(__DIR__ .</description>
+    </item>
+    
+  </channel>
+</rss>
